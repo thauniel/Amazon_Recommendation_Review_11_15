@@ -274,12 +274,12 @@ export function ProductReviewsComponent() {
           ))}
        </div> */}
 
-       <Modal isOpen={isOpen} onRequestClose={closeModal} className="modal">
+{/*        <Modal isOpen={isOpen} onRequestClose={closeModal} className="modal">
         <Image src={selectedImage} alt="Selected Product" className="max-w-[50%] max-h-[50%]" style={{width:'50%',height:'50%'}}/>
         <button onClick={closeModal} className='absolute top-4 right-4 text-white bg-gray-800 rounded p-2'>
           Close
         </button>
-      </Modal>
+      </Modal> */}
     </div>
 
         {selectedProduct && (
