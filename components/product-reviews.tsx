@@ -102,7 +102,7 @@ export function ProductReviewsComponent() {
   const [ClickReceive,setClickReceive]=useState(false);
   const [PReviews,setPositiveReviews]=useState<string[]>([]);
   const [NReviews,setNegativeReviews]=useState<string[]>([]);
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState('');
   const [expandedIndices, setExpandedIndices] = useState<Record<string, Record<number, boolean>>>({});
   const [expandedRightIndices, setRightExpandedIndices] = useState<Record<string, Record<number, boolean>>>({});
