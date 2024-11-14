@@ -30,8 +30,7 @@ import size_p_hum_review from './amazon_size_humidifier_sort_with_refe_p.json'
 import size_n_hum_review from './amazon_size_humidifier_sort_with_refe_n.json'
 import lights_p_review from './amazon_lights_humidifier_sort_with_refe_p.json'
 import lights_n_review from './amazon_lights_humidifier_sort_with_refe_n.json'
-import price_p_review from "./price_ear_sort_with_refe_p.json"
-import price_n_review from "./price_ear_sort_with_refe_n.json"
+
 
 import bear_water_p_review from "./bear_water_sort_with_refe_p.json"
 import bear_water_n_review from "./bear_water_sort_with_refe_n.json"
@@ -141,15 +140,15 @@ export function ProductReviewsComponent() {
     setShowDetails(false);
     setClickReceive(false);
   };
-  const openModal = (image:string) => {
-    setSelectedImage(image);
-    setIsOpen(true);
-  };
+  // const openModal = (image:string) => {
+  //   setSelectedImage(image);
+  //   setIsOpen(true);
+  // };
 
-  const closeModal = () => {
-    setIsOpen(false);
-    setSelectedImage('');
-  };
+  // const closeModal = () => {
+  //   setIsOpen(false);
+  //   setSelectedImage('');
+  // };
 
   const handleProductChange = (value: string) => {
     setSelectedProduct(value);
