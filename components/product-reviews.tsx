@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image"
+// import Image from "next/image"
 import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
@@ -56,7 +56,7 @@ import TRAUST_phone_p_review from "./TRAUSI_phone_sort_with_refe_p.json"
 import TRAUST_phone_n_review from "./TRAUSI_phone_sort_with_refe_n.json"
 import TRAUST_quality_p_review from "./TRAUSI_quality_sort_with_refe_p.json"
 import TRAUST_quality_n_review from "./TRAUSI_quality_sort_with_refe_n.json"
-import Modal from "react-modal"
+// import Modal from "react-modal"
 
 
 
